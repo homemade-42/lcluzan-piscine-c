@@ -6,17 +6,17 @@
 /*   By: lcluzan <lcluzan@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/24 13:43:49 by lcluzan           #+#    #+#             */
-/*   Updated: 2024/01/24 14:13:09 by lcluzan          ###   ########.fr       */
+/*   Updated: 2024/01/24 14:48:23 by lcluzan          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 void	ft_rev_int_tab(int *tab, int size)
 {
 	int	tmp;
-	int i;
+	int	i;
 
 	i = 0;
-	size = size -1;
+	size = size - 1;
 	while (i < size)
 	{
 		tmp = tab[i];
