@@ -6,7 +6,7 @@
 /*   By: lcluzan <lcluzan@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/26 15:13:25 by lcluzan           #+#    #+#             */
-/*   Updated: 2024/01/26 15:32:38 by lcluzan          ###   ########.fr       */
+/*   Updated: 2024/01/26 16:03:14 by lcluzan          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,10 +15,6 @@ int	ft_str_is_numeric(char *str)
 	int	i;
 
 	i = 0;
-	if (str[i] == '\0')
-	{
-		return (1);
-	}
 	while (str[i] != '\0')
 	{
 		if (str[i] >= '0' && str[i] <= '9')
