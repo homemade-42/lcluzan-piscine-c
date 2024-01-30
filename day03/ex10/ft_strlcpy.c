@@ -6,7 +6,7 @@
 /*   By: lcluzan <lcluzan@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/29 17:33:54 by lcluzan           #+#    #+#             */
-/*   Updated: 2024/01/30 15:02:16 by lcluzan          ###   ########.fr       */
+/*   Updated: 2024/01/30 15:08:07 by lcluzan          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ unsigned int	ft_strlcpy(char *dest, char *src, unsigned int size)
 		return (srclen);
 	while (src[i] && i < size - 1)
 	{
-		dest[i] = src[srclen];
+		dest[i] = src[i];
 		i++;
 	}
 	dest[i] = '\0';
