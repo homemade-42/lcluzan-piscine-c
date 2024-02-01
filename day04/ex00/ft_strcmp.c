@@ -6,7 +6,7 @@
 /*   By: lcluzan <lcluzan@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/31 11:42:13 by lcluzan           #+#    #+#             */
-/*   Updated: 2024/01/31 11:42:27 by lcluzan          ###   ########.fr       */
+/*   Updated: 2024/02/01 15:31:07 by lcluzan          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,5 +19,5 @@ int	ft_strcmp(char *s1, char *s2)
 	{
 		i++;
 	}
-	return (s1[i] - s2[i]);
+	return ((unsigned char)s1[i] - (unsigned char)s2[i]);
 }
