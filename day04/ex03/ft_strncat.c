@@ -6,14 +6,14 @@
 /*   By: lcluzan <lcluzan@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/06 14:21:03 by lcluzan           #+#    #+#             */
-/*   Updated: 2024/02/06 14:26:04 by lcluzan          ###   ########.fr       */
+/*   Updated: 2024/02/06 14:31:16 by lcluzan          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-char	*ft_strncat(char *dest, char *src, int nb)
+char	*ft_strncat(char *dest, char *src, unsigned int nb)
 {
-	int	i;
-	int	j;
+	unsigned int	i;
+	unsigned int	j;
 
 	i = 0;
 	while (dest[i] != '\0')
