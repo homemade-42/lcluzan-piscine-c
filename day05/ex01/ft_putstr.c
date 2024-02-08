@@ -6,17 +6,20 @@
 /*   By: lcluzan <lcluzan@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/08 16:55:00 by lcluzan           #+#    #+#             */
-/*   Updated: 2024/02/08 16:56:29 by lcluzan          ###   ########.fr       */
+/*   Updated: 2024/02/08 17:03:40 by lcluzan          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void	ft_putstr(char *str)
+void	ft_putstr(char	*str)
 {
-	while (*str != 0x00)
+	int	i;
+
+	i = 0;
+	while (str[i] != '\0')
 	{
-		write(1, str, 1);
-		str++;
+		write(1, &str[i], 1);
+		i++;
 	}
 }
